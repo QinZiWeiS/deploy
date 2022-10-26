@@ -37,6 +37,7 @@ const middlewares = [];
 // }
 
 /** get session storage */
+
 if (window.sessionStorage.getItem('locale') === undefined || window.sessionStorage.getItem('locale') === null) {
   initIntl('en-US');
   window.sessionStorage.setItem('locale', 'en-US');
