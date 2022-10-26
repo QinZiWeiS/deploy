@@ -31,7 +31,7 @@ jobs:
           python-version: 3.8
       - 
         name: Build Site
-        run: yarn build
+        run: npm run build
       - 
         name: Deploy
         uses: peaceiris/actions-gh-pages@v3
